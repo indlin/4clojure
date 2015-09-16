@@ -1,4 +1,5 @@
 (ns solve4clojure.prime)
+;; #67
 
 (defn prime? [n]
   (when (< n 3) true)
