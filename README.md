@@ -1,36 +1,11 @@
 # solve4clojure
 
-FIXME: description
-
-## Installation
-
-Download from http://example.com/FIXME.
-
-## Usage
-
-FIXME: explanation
-
-    $ java -jar solve4clojure-0.1.0-standalone.jar [args]
-
-## Options
-
-FIXME: listing of options this app accepts.
-
-## Examples
-
-...
-
-### Bugs
-
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
+Solutions for some problems from the site http://4clojure.com
+Run lein test for testing
 
 ## License
 
-Copyright © 2015 FIXME
+Copyright © 2015 Sergey Indlin
 
 Distributed under the Eclipse Public License either version 1.0 or (at
 your option) any later version.
