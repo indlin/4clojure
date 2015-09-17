@@ -1,8 +1,10 @@
 (ns solve4clojure.all-other)
 
+;; #23
 (defn rev-seq [col]
   (reduce (fn [acc val] (cons val acc)) [] col))
 
+;; #26
 (defn fib1
   ([] (fib1 1 1))
   ([a b]

@@ -1,5 +1,6 @@
 (ns solve4clojure.count-my)
 
+;; #22
 (defn count-my [col]
   (loop [x 0
          c col]
