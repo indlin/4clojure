@@ -25,4 +25,5 @@
     (is (= (all/rev-seq '(1 2 3 4)) [4 3 2 1]))
     (is (= (take 8 (all/fib1)) '(1 1 2 3 5 8 13 21)))
     (is (= (take 8 (all/fib2)) '(1 1 2 3 5 8 13 21)))
+    (is (= (all/grp-seq #(> % 5) [1 3 6 8]) {false [1 3], true [6 8]}))
     ))
