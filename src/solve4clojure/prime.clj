@@ -17,3 +17,4 @@
 ;;             (when (< n 3) true)
 ;;             (not (some zero? (map (fn [x] mod n x) (range 2 (-> (Math/sqrt n) int inc))))))
 ;;           (iterate inc 2)))
+

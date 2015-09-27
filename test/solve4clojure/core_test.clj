@@ -25,4 +25,11 @@
     (is (= (all/rev-seq '(1 2 3 4)) [4 3 2 1]))
     (is (= (take 8 (all/fib1)) '(1 1 2 3 5 8 13 21)))
     (is (= (take 8 (all/fib2)) '(1 1 2 3 5 8 13 21)))
+    (is (= (all/flat-col [1 2 [ 2 34 4] 3]) '(1 2 2 34 4 3)))
+    (is (= (all/grt-common 7 6) 1))
+    (is (= (all/grt-common 1023 858) 33))
     ))
+
+(deftest flat-col
+  (testing "count-my"
+    (is (= (cnt/count-my '(1 2 3 3 1)) 5))))
