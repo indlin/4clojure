@@ -13,6 +13,9 @@
 (defn fib2 []
   (map first (iterate (fn [[a b]] [b (+ a b)]) [1 1])))
 
+(defn grp-seq [f coll]
+  (reduce (fn [acc v] (update-in acc [(f v)] #(conj (vec %) v))) {} coll))
+
 ;; #28
 (defn flat-col [coll]
     (if (sequential? coll) (mapcat flat-col coll)
